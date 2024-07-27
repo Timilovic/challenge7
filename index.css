@@ -1,0 +1,59 @@
+*{
+    font-family: ser;
+}
+
+body{
+    background-color: hsl(332, 74%, 95%);
+}
+
+main{
+    background-color: white;
+}
+
+h3{
+    color: hsl(332, 51%, 32%);
+}
+
+h5{
+    color: hsl(330, 68%, 32%);
+}
+
+.bg{
+    background-color: hsl(330, 100%, 98%);
+      
+}
+
+
+
+table{
+    width:100%;
+}
+
+tr{
+    border-bottom: 1px solid rgb(199, 194, 194);
+}
+
+td{
+    margin-bottom: 15px;
+}
+
+.change-color{
+    color:hsl(332, 51%, 32%);
+}
+
+@media screen and (max-width:540px) {
+    .w-50{
+        width:100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        border-radius: 0 ;
+    }
+
+    .w-50 section{
+        padding: 18px;
+    }
+
+    .W-100{
+        border-radius:0 !important ;
+    }
+}
